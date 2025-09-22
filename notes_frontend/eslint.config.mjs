@@ -36,7 +36,22 @@ export default [
   {
     languageOptions: {
       globals: {
+        // Browser globals
+        window: "readonly",
         document: "readonly",
+        navigator: "readonly",
+        location: "readonly",
+        fetch: "readonly",
+        Request: "readonly",
+        Response: "readonly",
+        Headers: "readonly",
+        requestAnimationFrame: "readonly",
+        setTimeout: "readonly",
+        clearTimeout: "readonly",
+        setInterval: "readonly",
+        clearInterval: "readonly",
+        console: "readonly",
+        confirm: "readonly",
       },
     },
   },
